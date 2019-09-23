@@ -1,12 +1,27 @@
+html{
+background-image:url("images/IMG_20180614_212617.png");
+}
+
 *{
 margin:0;
 padding:0;
 }
+.container{
+margin:0 auto;
+width:1000px;
+}
+
 body{
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
     font-size:17px;
     line-height:1.6;
 }
-#showcase{
-background-image:url('IMG_20180614_212617.png');
+
+header{ 
+height:100px;
+}
+
+header nav{
+    display:inline;
+}
